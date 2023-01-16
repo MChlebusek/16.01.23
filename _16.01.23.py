@@ -12,18 +12,18 @@ while flag:
         else:
             password = input("password:")
             password2 = input("password:")
+            while password2 != password:
+                print("erinev.")
+                password = input("password:")
+                password2 = input("password:")
             while len(password) < 10:
-                print("Короткий!")
+                print("Lühike!")
                 password = input("password:")
                 password2 = input("password:")
             while "123" in password:
-                print("Простой!")
+                print("Lihtne!")
                 password = input("password:")
-                password2 = input("password:")
-            while password2 != password:
-                print("Различаются.")
-                password = input("password:")
-                password2 = input("password:")
+                password2 = input("password:")           
         print ("olete registreerunud")
     elif a==2:
         login=input("login: ")

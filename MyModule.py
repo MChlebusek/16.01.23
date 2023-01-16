@@ -11,3 +11,6 @@ def salasona(k: int):
         t_num=[t,str(num)]
         sala+=choice(t_num)
         return sala
+
+
+
